@@ -20,19 +20,19 @@ export const Header = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">হোম</a>
+          <a class="nav-link active" aria-current="page" href="#"> <NavLink style={{color: 'white'}} to="/">হোম</NavLink></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">আমাদের সম্পর্কে</a>
+          <a class="nav-link" href="#"><NavLink style={{color: 'white'}} to="/about">আমাদের সম্পর্কে</NavLink></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ফিচার সমূহ</a>
+          <a class="nav-link" href="#"> <NavLink style={{color: 'white'}} to="/features">ফিচার সমূহ</NavLink></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">মূল্য তালিকা</a>
+          <a class="nav-link"><NavLink style={{color: 'white'}} to="/pricing">মূল্য তালিকা</NavLink></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">অ্যাপটি ডাউনলোড করুন</a>
+          <a class="nav-link"> <NavLink style={{color: 'white'}} to="/download">অ্যাপটি ডাউনলোড করুন</NavLink></a>
         </li>
         
       </ul>
